@@ -179,3 +179,15 @@ button:hover {
     border: solid 2px;
 }
 
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3882F6;
+}
+
