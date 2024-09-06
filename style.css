@@ -122,3 +122,29 @@ body {
     margin: 10px 0;
     max-width: 200px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+#quote-content {
+    font-family: "Times New Roman";  /* idk looks cooler than Roboto */
+    width: 800px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#quote-author {
+    align-self: end;
+    font-size: 24px;
+    margin-right: 250px;
+    font-weight: bolder;
+}
+
