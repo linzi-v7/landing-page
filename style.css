@@ -84,3 +84,41 @@ body {
     padding: 5px 20px;
     font-weight: 600;
 }
+
+.content {
+    padding: 40px;
+    text-align: center;
+
+}
+
+.content #header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.card {
+    flex: 0 0 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img {
+    border-radius: 10px;
+    width: max-content;
+}
+
+.card span {
+    margin: 10px 0;
+    max-width: 200px;
+}
