@@ -7,7 +7,6 @@
 }
 
 
-
 ul {
     list-style: none;
 }
@@ -146,5 +145,37 @@ body {
     font-size: 24px;
     margin-right: 250px;
     font-weight: bolder;
+}
+
+button:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action-card {
+    display: flex;
+    color: #E5E7EB;
+    padding: 40px;
+    width: 900px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.left-text span {
+    font-weight: bold;
+}
+
+.call-to-action-card button {
+    border-color: #E5E7EB;
+    border: solid 2px;
 }
 
